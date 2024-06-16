@@ -1,5 +1,3 @@
-# HoKoonMicroclimateWorkshop
-
 Computer for development
 ========================
 
