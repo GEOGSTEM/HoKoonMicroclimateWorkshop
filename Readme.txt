@@ -9,10 +9,10 @@ https://www.arduino.cc/en/software
 USB-Enhanced-SERIAL CH9102 COM port driver
 ------------------------------------------
 
-Microsoft Windows
+For Microsoft Windows Users:
 https://github.com/Xinyuan-LilyGO/CH9102_Driver
 
-macOS
+For macOS Users:
 https://github.com/WCHSoftGroup/ch34xser_macos
 
 Libraries used
@@ -20,85 +20,74 @@ Libraries used
 
 Additional Board Manager URLs:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
+** ESP32 - Version 2.0.11 **
 
-Crypto
-------
+-------------
+|  Crypto   |
+-------------
+** Crypto - Version 0.4.0 **
 
-For older version before version 0.4.0:
-	Edit libraries/Crypto/src/AES.h
-		remove the usage of "CRYPTO_AES_ESP32"
-		always use "CRYPTO_AES_DEFAULT"
+-------------
+| ESP32Time | 
+-------------
+Handle date-time using internal clock
 
-NTPClient
----------
+** ESP32Time - Version 2.0.6 **
 
+-------------
+|   LoRa    | 
+-------------
+Driver of LoRa Communication
+
+** LoRa - Version 0.8.0 **
+
+--------------------
+| Adafruit SSD1306 |
+--------------------
+Driver of SSD1306 OLED display
+
+** Adafruit SSD1306 - Version 2.5.10 **
+
+-------------
+|   RTClib  | 
+-------------
+Driver of DS1307 and DS3231 real-time clocks
+
+** RTClib - Version 2.1.4 **
+
+--------------------------
+| Adafruit SHT4x Library |
+--------------------------
+SHT40 temperature and humidity sensor
+
+** Adafruit SHT4x Library - Version 1.0.4 **
+
+---------------------------
+| Adafruit BME280 Library |
+---------------------------
+BME280 I2C temperature, pressure and humidity sensor
+
+** Adafruit BME280 Library  - Version 2.2.4 **
+
+----------------------
+| Adafruit LC709203F |
+----------------------
+LC709203F battery gauge
+
+** Adafruit LC709203F - Version 1.3.4 **
+
+
+-------------
+| NTPClient |
+-------------
 Synchronize real-time clock from NTP server.
 
 IDE version does not work.
 It should be installed from github.
 https://github.com/arduino-libraries/NTPClient.git
+** NTPClient - Version 3.2.1 **
 
-ESP32Time
----------
-
-Handle date-time using internal clock
-
-LoRa
-----
-
-Driver of LoRa
-
-Adafruit SSD1306
-----------------
-
-Driver of SSD1306 OLED display
-
-Grove - High Precision RTC
---------------------------
-
-Driver of PCF85063TP Real-time clock
-
-RTClib
-------
-
-Driver of DS1307 and DS3231 real-time clocks
-
-OneWire
--------
-
-Driver of 1-wire interface
-
-It is used by dallas temperature sensor.
-
-DallasTemperature
------------------
-
-Dallas 1-wire temperature sensor
-
-Adafruit SHT4x Library
-----------------------
-
-SHT40 temperature and humidity sensor
-
-Adafruit BME280 Library
------------------------
-
-BME280 I2C temperature, pressure and humidity sensor
-
-Adafruit LTR390 Library
------------------------
-
-LTR390 I2C ambient/ultraviolet light sensor
-
-DFRobot_MAX17043
-----------------
-
-MAX17043 battery gauge
-
-Adafruit LC709203F
-------------------
-
-LC709203F battery gauge
+------------------------------------------------------------------
 
 CONFIGURATION
 =============
