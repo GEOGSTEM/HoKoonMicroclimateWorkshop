@@ -15,8 +15,8 @@
 #define LORA_BAND 923000000 /* Hz */
 
 /* Internet */
-#define WIFI_SSID "hokoon-geo"
-#define WIFI_PASS "GEo101121"
+#define WIFI_SSID ""
+#define WIFI_PASS ""
 #define HTTP_UPLOAD_LENGTH 512
 /* Ho Koon internal */
 #define HTTP_UPLOAD_FORMAT \
